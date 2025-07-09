@@ -1,4 +1,4 @@
-Practice: Mixed-Type Arrays
+/*Practice: Mixed-Type Arrays
 Instructions
 Create a program to store and display user profiles for a basic application. Your
 program should store and display one profile that contains the following:
@@ -31,4 +31,22 @@ For this activity, you will create your own repository to store your code:
 4. Clone the repository to your local machine.
 5. Start working on the code.
 Submission
-Submit the url for your GitHub repo in the field below.
+Submit the url for your GitHub repo in the field below.*/
+
+
+//Task1:
+
+let userProfile=["Varalakshmi",45,true,{city:"chesterfield"},["Reading books","listening music"]];
+
+//Task2:
+
+console.log(userProfile[0]);
+console.log(userProfile[4][1]);
+
+//Task3:
+userProfile[1]=46;
+console.log(userProfile[1]);
+userProfile[4].push("walking");
+
+//Task4:
+console.log(userProfile);
